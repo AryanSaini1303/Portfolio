@@ -155,3 +155,35 @@ a{
 .first{
     margin-top:18px;
 }
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    right:46px;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.245);
+}
+.contact-info *{
+    display:flex;
+    flex-direction: column;
+    margin-top:25px;
+    margin-left: 15px;
+    color:rgb(82, 79, 79);
+    transition:0.3s;
+}
+.contact-info a i:hover{
+    font-size:25px;
+    color:cyan;
+    cursor:pointer;
+}
+.contact-info a{
+    margin-top:-5px;
+    margin-left:0px;
+}
+.heading{
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: bold;
+}
