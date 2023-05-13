@@ -103,10 +103,6 @@ button:hover{
     padding-left:81px;
     margin-top:-20px;
 }
-.alternate-glitch{
-    margin-left:331px;
-    font-weight: normal;
-}
 #main>div{
     margin-left:46px;
 }
@@ -132,4 +128,31 @@ a{
 }
 .initial *:hover{
     color:white;
+}
+.alternate-glitch1{
+    position:relative;
+    color:#0ffbf9;
+    font-family: 'Lobster', cursive;
+    font-size: 6rem;
+    font-weight: lighter;
+    left: 4px;
+}
+.alternate-glitch2{
+    position:relative;
+    color:#cc0f39;
+    left:7px;
+    font-family: 'Lobster', cursive;
+    font-size: 6rem;
+    font-weight: lighter;
+    left:-69px
+}
+.rest{
+    padding-left:0px
+}
+.name{
+    display:flex;
+    gap:10px;
+}
+.first{
+    margin-top:18px;
 }
