@@ -71,7 +71,7 @@ button{
 }
 button:hover{
     font-size:20px;
-    color:white;
+    color:cyan;
     cursor:pointer;
 }
 .links{
